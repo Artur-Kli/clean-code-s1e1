@@ -4,28 +4,25 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
-.aaa {
+.wrapper {
   width: 500px;
   margin: 0 auto;
   display: block;
+}
+.start-screen {
   text-align: right;
 }
-.aaa img {
+.start-screen__img {
   width: 100%;
 }
-.aaa .more_inf {
+.start-screen__link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width: 768px) {
-  .aaa { 
+  .start-screen { 
     text-align: center;
   }
-}
-.centered-main-page-element {
-  display: block;
-  width: 500px;
-  margin: 0 auto 0;
 }
 .task {
   width: 56%;
